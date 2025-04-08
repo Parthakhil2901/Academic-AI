@@ -1,50 +1,105 @@
-# Welcome to your Expo app 👋
+🎓 Academic-AI Manager
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+An intelligent student dashboard and performance tracker powered by AI!Manage your academic life like a pro — from attendance tracking to quiz generation, mental wellness support, and personalized learning insights, all in one smart app.
 
-## Get started
+🚀 Features
 
-1. Install dependencies
+🔹 📊 Performance DashboardTrack test scores, attendance, quiz history, and academic progress with beautiful charts and summaries.
 
-   ```bash
-   npm install
-   ```
+🔹 🧠 AI-Powered Quiz GeneratorGenerate subject-wise quizzes and mock tests instantly, tailored to your syllabus and level.
 
-2. Start the app
+🔹 🤖 Smart ChatbotYour AI companion for both academic queries and mental wellness support. Whether you're stuck on a topic or feeling low, it’s here for you.
 
-   ```bash
-    npx expo start
-   ```
+🔹 📅 Test & Attendance TrackerEasily log, update, and view your test performances and attendance status by subject or semester.
 
-In the output, you'll find options to open the app in a
+🔹 📚 Personalized Study InsightsGet AI-generated feedback and suggestions to boost your academic performance.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🛠 Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Frontend: Kotlin (Jetpack Compose or Android XML)
 
-## Get a fresh project
+Backend: Firebase / Node.js (Optional)
 
-When you're ready, run:
+AI: OpenAI API / Hugging Face / Local ML models
 
-```bash
-npm run reset-project
-```
+Database: Firebase Realtime DB / Firestore
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Authentication: Firebase Auth
 
-## Learn more
+📱 Screenshots
 
-To learn more about developing your project with Expo, look at the following resources:
+(Insert screenshots of the dashboard, quiz generator, chatbot, etc.)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+🧑‍💻 Getting Started
 
-## Join the community
+📦 Prerequisites
 
-Join our community of developers creating universal apps.
+Android Studio Arctic Fox or later
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Firebase Project (with Auth and Firestore)
+
+OpenAI API key (optional but recommended for AI features)
+
+🔧 Installation
+
+Clone the repository
+
+git clone https://github.com/yourusername/Academic-AI-Manager.git
+
+Open in Android StudioImport the project and sync the Gradle files.
+
+Set up FirebaseAdd your google-services.json file to app/.
+
+Configure APIsAdd your OpenAI API key to the appropriate config file or environment.
+
+Run the AppLaunch the app on your emulator or physical device.
+
+🧩 Modules
+
+Module
+
+Description
+
+Dashboard
+
+Visualizes academic data
+
+QuizGen
+
+AI-generated quizzes based on topics
+
+AttendanceManager
+
+Log and display subject-wise attendance
+
+Chatbot
+
+Smart AI chatbot for academic & wellness
+
+AnalyticsEngine
+
+Provides suggestions to improve performance
+
+💡 Future Enhancements
+
+Google Calendar integration for reminders
+
+Voice support for the chatbot
+
+Smart Notification System
+
+Faculty feedback module
+
+Leaderboard and peer comparison features
+
+🙌 Contributing
+
+We welcome pull requests and feature suggestions!For major changes, please open an issue first to discuss what you’d like to change.
+
+📄 License
+
+This project is licensed under the MIT License.See the LICENSE file for details.
+
+👨‍💻 Developed by
+
+Akhilesh Shukla📍 SRMIST Vadapalani | ArrowDev ClubLet's connect on LinkedIn or collaborate on GitHub!
